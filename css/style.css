@@ -73,12 +73,12 @@
     background-color: red;
     }
     .ex-2-square:active{
-        transition-duration: 10s;
+        transition-duration: 20s;
         width: 500px;
     }
     .ex-3-square:hover{
         border-radius: 100px;
-        transition-duration: 10s;
+        transition-duration: 20s;
     }
     .ex-4-square:hover{
         transition-duration: 2s;
@@ -89,6 +89,13 @@
         width: 100px;
         margin: 0;
     }
+    
+    .ex-5-square:active{
+        transition-duration: 2s;
+        width: 50px;
+        height: 50px;
+    }
+    
     .ex-6-img:hover{
         filter: grayscale(1);
     }
@@ -99,5 +106,11 @@
     .ex-8-img:hover{
         transition-duration: 3s;
         border-radius: 30px;
-        filter: brightness(50%) contrast(100%);
+        filter: brightness(100%) contrast(100%);
+    }
+    .ex-9-img:hover{
+        transition-duration: 3s;
+        border-radius: 30px;
+        filter: brightness(100%) contrast(50%);
+        width: 700px;
     }
