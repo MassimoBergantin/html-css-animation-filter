@@ -71,45 +71,45 @@
 .ex-1-square:hover{
     transition:2s;
     background-color: red;
-    }
-    .ex-2-square:active{
-        transition-duration: 5s;
-        width: 500px;
-    }
-    .ex-3-square:hover{
-        border-radius: 100px;
-        transition-duration: 5s;
-    }
-    .ex-4-square:hover{
-        transition-duration: 5s;
-        opacity: 0;
-    }
-    .ex-5-square:hover{
-        height: 100px;
-        width: 100px;
-        margin: 0;
-    }
-    .ex-5-square:active{
-        transition-duration: 5s;
-        width: 50px;
-        height: 50px;
-    }
-    
-    .ex-6-img:hover{
-        filter: grayscale(1);
-    }
-    .ex-7-img:hover{
-        filter: sepia(6) brightness(100%);
-        transition-duration: 5s;
-    }
-    .ex-8-img:hover{
-        transition-duration: 5s;
-        border-radius: 500px;
-        filter: brightness(100%) contrast(50%);
-    }
-    .ex-9-img:hover{
-        transition-duration: 3s;
-        border-radius: 100px;
-        filter: brightness(100%) contrast(50%);
-        width: 1000px;
-    }
+}
+.ex-2-square:active{
+    transition-duration: 5s;
+    width: 500px;
+}
+.ex-3-square:hover{
+    border-radius: 100px;
+    transition-duration: 5s;
+}
+.ex-4-square:hover{
+    transition-duration: 5s;
+    opacity: 0;
+}
+.ex-5-square:hover{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+.ex-5-square:active{
+    transition-duration: 5s;
+    width: 50px;
+    height: 50px;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+.ex-7-img:hover{
+    filter: sepia(6) brightness(100%);
+    transition-duration: 5s;
+}
+.ex-8-img:hover{
+    transition-duration: 5s;
+    border-radius: 500px;
+    filter: brightness(100%) contrast(50%);
+}
+.ex-9-img:hover{
+    transition-duration: 3s;
+    border-radius: 100px;
+    filter: brightness(100%) contrast(50%);
+    width: 1000px;
+}
